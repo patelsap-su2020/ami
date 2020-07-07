@@ -21,7 +21,6 @@
         "log_stream_name": "cloudwatch_log_stream"
     },
     "metrics": {
-        "metrics": {
             "metrics_collected": {
               "cpu": {
                 "resources": [
@@ -39,8 +38,7 @@
                   "customized_dimension_key_2": "customized_dimension_value_2"
                 }
               }
-            }
-        }    
+            }   
     },
     "append_dimensions": {
         "ImageId": "${aws:ImageId}",
